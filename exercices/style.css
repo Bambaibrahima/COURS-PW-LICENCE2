@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main, .main-left, .main-right, .mr-qui, .mr-Pl, .mr-pay, .mr-table, .mr-sign{
+    border: 1px solid #ff0000;
+}
+
+.main{
+    width: 595px;
+    height: 842px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 4px;
+}
+.main-left{
+    width: 10px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #3ac2c2;
+}
+.main-right{
+    width: 832px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+.mr-qui{
+    width: 100%;
+    height: 10%;
+}
+
+.mr-pl{
+    width: 100%;
+    height: 15%;
+}
+
+.mr-pay{
+    width: 100%;
+    height: 15%;
+}
+
+.mr-table{
+    width: 100%;
+    height: 35%;
+}
+
+.mr-sign{
+    width: 100%;
+    height: 25%;
+}
+
