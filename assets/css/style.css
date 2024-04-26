@@ -15,9 +15,9 @@ body{
 }
 
 /* PROJET CSS */
-/* .nav-bar , .nb-left, .nb-right, .nbr-menu, .nbr-btn{
-    border: 1px solid red
-} */
+.nav-bar, .nb-left, .nb-right, .nbr-menu, .nbr-btn, .footer, .ft-main, .ftm-left, .ftml-w, .ftm-right {
+    border: 1px solid red;
+}
 
 
 .nav-bar{
@@ -79,9 +79,6 @@ body{
     align-items: center;
 }
 
-
-
-
 .btn-black{
     width: 100px;
     height: 60px;
@@ -98,4 +95,61 @@ body{
     color:#000000;
     font-size: 20px;
     border-radius: 8px;
+}
+
+
+.footer{
+    width: Fill 100%;
+    height: Hug (120px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:48px, 0px, 48px, 0px ;
+    gap: 64px;
+    background-color: #F9FAFB;
+}
+.ft-main{
+    width: 70%;
+    height: Hug (24px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px, 32px, 0px, 32px ;
+    gap: 64px;
+}
+
+.ftm-left{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.ftml-w{
+   width: 1016px;
+   height: 24px;
+   font-family : « Inter », sans-serif ;
+     font-size: 16px;
+     color: #98A2B3;
+     font-weight: 400;
+
+}
+
+
+.ftm-right{
+    width: 15%;
+    height:Hug (24px) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+.ftm-right i{
+    height: 24px ;
+    width: 24px;
+    color: #98A2B3 ;
+
 }
