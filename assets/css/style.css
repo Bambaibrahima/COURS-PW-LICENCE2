@@ -16,7 +16,7 @@ body{
 
 /* PROJET CSS */
 .nav-bar, .nb-left, .nb-right, .nbr-menu, .nbr-btn, .footer, .ft-main, .ftm-left, .ftm-right, .accompagnement,.acc-main, .accm-left,
- .accm-righ {
+ .accm-righ, .messaging-A, .messaging-B, .messaging, .mesg-main, .msg-btn, .accml-t, .btn-esp, .btn-cn {
     border: 1px solid red;
 }
 
@@ -112,7 +112,7 @@ body{
 .ft-main{
     width: 95%;
     height:Hug (24px) ;
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 32px;
@@ -139,6 +139,7 @@ body{
     align-items: center;
     padding: 0 72px;
     background-color: #F9FAFB;
+
 }
 
 .acc-main{
@@ -148,6 +149,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 32px;
+
 }
 
 .accm-left{
@@ -155,24 +157,77 @@ body{
     width: 70%;
 
 }
-
-#ml-acc{
-    color: #000000;
-    font-weight: 600;
-   font-size: 40 px;
-    line-height: 14px;
-    font: Inter;
+.accml-t{
+    width: 100%;
+    height:70% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    font-size:30px ;
+font-weight: 600;
+color: #000000;
 }
-#ml-lip{
-    color: #000000;
+.accml-l{
+    width: 100%;
+    height:30% ;
     font-weight: 400;
-    size: 20px;
-    line-height: 30px;
-    font: Inter;
+color: #000000;
 }
+
 .accm-right{
     width: 30%;
     height: 100%;
-
 }
 
+.btn-esp{
+    width: 50%;
+    height: 30%;
+    display: start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-cn{
+    width: 50%;
+    height: 30%;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.messaging{
+    width: 100%;
+    height: 100%;
+}
+.messaging-A{
+    width: 80%;
+height: 50%;
+gap: 0px;
+opacity: 0px;
+
+font-family: Inter;
+font-size: 60px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+
+color: #101828;
+}
+.messaging-B{
+    width: 80%;
+height: 100%;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color:#667085;
+}
+.msg-btn{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
