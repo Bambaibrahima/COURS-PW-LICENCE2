@@ -305,9 +305,9 @@ align-items: center;
 
 /* 
 MESSAGING */
-.messaging,.Fonction, .Fonctionnalités, .service, .AB, .fct-main, .main-right,.main-left .ml-1,.ml-2,.ml2-A,.ml2-B,.ml3-A,.ml3-B,.ml3-C,.ml-3{
+/* .messaging,.Fonction, .Fonctionnalités, .service, .AB, .fct-main, .main-right,.main-left .ml-1,.ml-2,.ml2-A,.ml2-B,.ml3-A,.ml3-B,.ml3-C,.ml-3{
     border: 1px solid red;
-}
+} */
 .messaging{ 
 background-color: #FFFFFF;
 padding: 30px,30px,30px,30px;
@@ -466,9 +466,9 @@ padding: 30px,30px,30px,30px;
 }
 
 /* MESSAGING2 */
- .messaging2, .msg-main, .msg-right,.R1, .R2, .R2-int, .R2-txt, .R3, .R3-A, .R3-B,.R3-C, .msg-left {
+ /* .messaging2, .msg-main, .msg-right,.R1, .R2, .R2-int, .R2-txt, .R3, .R3-A, .R3-B,.R3-C, .msg-left {
     border: 1px solid red;
- }
+ } */
 
 
  .msg-main{
